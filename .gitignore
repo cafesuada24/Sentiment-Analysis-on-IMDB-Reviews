@@ -1,3 +1,7 @@
+notebooks/*
+!notebooks/SentimentAnalysisonIDBM.ipynb
+.vscode/
+kaggle.json
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
