@@ -75,7 +75,7 @@ The model used in this project is a neural network built with TensorFlow. It con
 
 ## Results
 
-The model achieves an accuracy of XX% on the test dataset. Below is the confusion matrix and classification report:
+The model achieves an accuracy of 87% on the test dataset. Below is the confusion matrix and classification report:
 
 ![Confusion Matrix](images/confusion_matrix.png)
 
