@@ -1,3 +1,4 @@
+predicted/
 notebooks/*
 !notebooks/SentimentAnalysisonIDBM.ipynb
 .vscode/
