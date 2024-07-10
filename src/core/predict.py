@@ -7,8 +7,7 @@ from tensorflow import keras
 from tensorflow.keras.preprocessing.text import Tokenizer, tokenizer_from_json
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-MODEL_FILENAME = r'model.keras'
-TOKENIZER_FILENAME = r'tokenizer.json'
+from lib import MODEL_FILENAME, TOKENIZER_FILENAME
 
 def transform_data(tokenizer: Tokenizer, data: pd.Series) -> np.ndarray:
     return pad_sequences(tokenizer.texts_to_sequences(data), maxlen=200)
