@@ -19,7 +19,7 @@ This project involves performing sentiment analysis on movie reviews from the In
 
 ## Dataset
 
-The dataset used for this project consists of IMDB movie reviews. It includes a balanced set of 50,000 reviews, with 25,000 labeled as positive and 25,000 labeled as negative.
+The [dataset](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) used for this project consists of IMDB movie reviews. It includes a balanced set of 50,000 reviews, with 25,000 labeled as positive and 25,000 labeled as negative.
 
 ## Requirements
 
