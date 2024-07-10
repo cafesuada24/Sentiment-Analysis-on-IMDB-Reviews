@@ -51,13 +51,17 @@ The [dataset](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50
 -   Train the model:
 
     ```sh
-    python src\SentimentAnalysis.py --train your\csv\dataset\path
+    python src\SentimentAnalysis.py --train your\csv\dataset\path [--output output\directory]
     ```
 
 -   Predict sentiment of new reviews:
 
     ```sh
-    python src\SentimentAnalysis.py --review "Your movie review here" --model your\model\path
+    python src\SentimentAnalysis.py --review "Your movie review here" [--model your\model\path]
+    ```
+
+    ```sh
+    python src\SentimentAnalysis.py --file input\csv\file [--model your\model\path]
     ```
 
 -   For further details, run:
@@ -87,6 +91,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgements
 
--   [IMDB](https://www.imdb.com) for providing the movie reviews dataset.
--   [TensorFlow](https://www.tensorflow.org) for the machine learning framework.
--   [NLTK](https://www.nltk.org) for natural language processing tools.
+-   [Kaggle](https://kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) for providing the movie reviews dataset.
+-   [TensorFlow](https://www.tensorflow.org) for the machine learning framework
